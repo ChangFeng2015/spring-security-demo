@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.106.17.80:3306/test?useUnicode=true&characterEncoding=UTF-8
+    username: admin
+    password: root
+    sql-script-encoding: utf-8
+    hikari:
+      max-lifetime: 1765000
+      maximum-pool-size: 10
+  session:
+    store-type: none
+    
+security:
+  basic:
+    enabled: false
